@@ -8,7 +8,7 @@ with open(shllcode, 'r+') as sc_handle:
 	sc_data = sc_handle.read()
 
 new_shellcode = "0" + ",0".join(sc_data.split("\\")[1:])
-print(cs_shellcode)
+print(new_shellcode)
 
 
 
