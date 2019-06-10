@@ -6,3 +6,7 @@
 ```
 python3 shellcodemodify.py
 ```
+# Clean shellcode
+```
+tr -d '";\r\n'
+```
